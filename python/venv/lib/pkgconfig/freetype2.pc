@@ -1,0 +1,14 @@
+prefix=/Users/bluemishu/Coding/ML/python/venv
+exec_prefix=/Users/bluemishu/Coding/ML/python/venv
+libdir=/Users/bluemishu/Coding/ML/python/venv/lib
+includedir=/Users/bluemishu/Coding/ML/python/venv/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: 
+Libs: -L/Users/bluemishu/Coding/ML/python/venv/lib -lfreetype
+Libs.private: -lz -L/Users/bluemishu/Coding/ML/python/venv/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2

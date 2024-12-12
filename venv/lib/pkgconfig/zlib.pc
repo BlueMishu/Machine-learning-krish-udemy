@@ -1,0 +1,13 @@
+prefix=/Users/bluemishu/Coding/ML/venv
+exec_prefix=/Users/bluemishu/Coding/ML/venv
+libdir=/Users/bluemishu/Coding/ML/venv/lib
+sharedlibdir=/Users/bluemishu/Coding/ML/venv/lib
+includedir=/Users/bluemishu/Coding/ML/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

@@ -1,0 +1,4 @@
+// conda create -p venv python==3.12 -> use to create a folder venv by writing this command which  has some usful things like basic libraries and packages
+// conda activate venv/ -> activate the venv environment
+// pip install ipykernel -> used to install in jupitor notebook ->  provide kernel to notebook responsible for executing python code
+// pip install -r requirements.txt -> will install all the requirement written on the file
